@@ -184,6 +184,10 @@ p {
   list-style: none;
 }
 
+.graduation-icon {
+  font-size: 25px;
+}
+
 .focus-areas {
   font-size: 18px;
 }
