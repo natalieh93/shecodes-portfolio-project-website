@@ -24,12 +24,12 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 500;
 }
 
 p {
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 300;
 }
 
@@ -235,6 +235,14 @@ p {
 
 .project-github-link:hover {
   color: var(--branding-color);
+}
+
+.contact-box {
+  background-color: var(--quaternary-color);
+  font-size: 16px;
+  font-weight: 200;
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 
 .contact-content-container {
