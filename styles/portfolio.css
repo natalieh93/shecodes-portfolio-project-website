@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: 3px;
 }
 
@@ -20,7 +20,8 @@ h2 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 h4 {
@@ -113,20 +114,16 @@ p {
   color: black;
 }
 
+.homepage-paragraph {
+  padding: 10px 100px;
+}
+
 .name {
   color: var(--secondary-color);
 }
 
 .content-container {
-  padding: 100px 50px 100px;
-}
-
-#about-section h1 {
-  font-size: 30px;
-}
-
-#about-section h3 {
-  font-weight: 300;
+  padding: 170px 190px;
 }
 
 .about-paragraphs {
@@ -155,21 +152,21 @@ p {
 }
 
 .headshot {
-  margin: 0 auto;
+  margin: 0px auto;
   max-width: 400px;
   padding: 7px;
 }
 
 .skills-container {
-  border: 7px solid var(--tertiary-color);
+  border: 10px solid var(--tertiary-color);
   border-radius: 20px;
-  margin: 100px auto;
-  padding: 30px;
-  width: 90%;
+  margin: 0px auto;
+  padding: 5px;
+  width: 80%;
 }
 
 .skills-container h3 {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .skills-container ul {
@@ -181,17 +178,15 @@ p {
 }
 
 .certificates-container {
-  margin-bottom: 80px;
-  margin-top: -100px;
+  margin-top: 100px;
 }
 
 .education-content {
-  border-right: 7px solid var(--tertiary-color);
-  height: 30%;
+  border-right: 3px solid var(--tertiary-color);
 }
 
 .education-container {
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .education-container ul {
@@ -202,8 +197,17 @@ p {
   font-size: 25px;
 }
 
-.focus-areas {
+.education-container h3 {
+  font-size: 20px;
+}
+
+.education-container h4 {
   font-size: 18px;
+}
+
+.focus-areas {
+  font-size: 16px;
+  text-align: center;
 }
 
 .focus-areas li {
