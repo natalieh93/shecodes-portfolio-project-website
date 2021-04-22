@@ -222,3 +222,17 @@ p {
 .project-github-link:hover {
   color: var(--branding-color);
 }
+
+.contact-content-container {
+  margin-top: 160px;
+  margin-bottom: 150px;
+}
+
+.contact-content-container a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.contact-content-container a:hover {
+  text-decoration: underline;
+}
