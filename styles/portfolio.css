@@ -1,0 +1,194 @@
+:root {
+  --default-font-family: "Poppins", sans-serif;
+  --branding-color: #334369;
+  --secondary-color: #7d8aadf7;
+  --tertiary-color: #ececec;
+  --quaternary-color: #f7f7f7;
+}
+
+body {
+  font-family: var(--default-font-family);
+}
+
+h1 {
+  font-size: 45px;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url(../images/canada.jpg);
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(48, 48, 48, 0.432);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero h1 {
+  font-size: 101px;
+  color: white;
+  margin-top: 120px;
+  letter-spacing: 3px;
+}
+
+.hero p {
+  font-size: 23.5px;
+  color: white;
+  font-weight: 300;
+}
+
+.hero-btn-branding {
+  color: white;
+  font-size: 30px;
+  padding: 15px 30px;
+  transition: all 100ms ease;
+  position: relative;
+  right: 19px;
+}
+
+.hero-btn-branding:hover {
+  color: white;
+  border: 1px solid white;
+}
+
+.photo-credit {
+  font-size: 14px;
+}
+
+.photographer-credit,
+.unsplash-link {
+  text-decoration: none;
+  color: black;
+}
+
+.photographer-credit:hover,
+.unsplash-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.name {
+  color: var(--secondary-color);
+}
+
+.content-container {
+  padding: 100px 50px 100px;
+}
+
+#about-section h1 {
+  font-size: 30px;
+}
+
+#about-section h3 {
+  font-weight: 300;
+}
+
+.about-paragraphs {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.btn-branding {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 30px;
+  padding: 8px 20px;
+  transition: all 200ms ease;
+}
+
+.btn-branding:hover {
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.headshot {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 7px;
+}
+
+.skills-container {
+  border: 7px solid var(--tertiary-color);
+  border-radius: 20px;
+  margin: 100px auto;
+  padding: 30px;
+  width: 90%;
+}
+
+.skills-container h3 {
+  font-size: 18px;
+}
+
+.skills-container ul {
+  list-style: none;
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-right: 40px;
+}
+
+.certificates-container {
+  margin-bottom: 80px;
+  margin-top: -100px;
+}
+
+.education-content {
+  border-right: 7px solid var(--tertiary-color);
+  height: 30%;
+}
+
+.education-container {
+  margin-top: 60px;
+}
+
+.education-container ul {
+  list-style: none;
+}
+
+.focus-areas {
+  font-size: 18px;
+}
+
+.focus-areas li {
+  font-size: 16px;
+  font-weight: 300;
+}
