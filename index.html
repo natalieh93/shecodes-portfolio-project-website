@@ -3,36 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Natalie Hood is an aspiring Front-End Developer based in Europe. She is skilled in HTML, CSS, JavaScript, Bootstrap, Responsive Design and much more. Take a look at her projects and contact her for collaborations or job offers! "
+    />
+    <title>Aspiring Front-End Developer | Natalie Hood | Portfolio</title>
+    <!--Bootstrap CSS-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
+    <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap"
       rel="stylesheet"
     />
+    <!--CSS stylesheet-->
     <link rel="stylesheet" href="styles/portfolio.css" />
+    <!--Bootstrap JS-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
       crossorigin="anonymous"
     ></script>
+    <!--Font Awesome-->
     <script
       src="https://kit.fontawesome.com/8b6a10b4d8.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <!--Navbar Bootstrap-->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top p-3">
       <div class="container-fluid">
         <a
           class="navbar-brand border border-dark p-3 text-dark"
           href="/"
-          title="Homepage"
+          title="Natalie Hood's Homepage"
           >NH
         </a>
         <button
@@ -52,22 +62,42 @@
         >
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/">HOME</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/"
+                title="Natalie Hood's Homepage"
+                >HOME</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT</a>
+              <a class="nav-link" href="about.html" title="About Natalie Hood"
+                >ABOUT</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="work.html"> WORK</a>
+              <a
+                class="nav-link"
+                href="work.html"
+                title="Natalie Hood's Portfolio"
+              >
+                WORK</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
+              <a
+                class="nav-link"
+                href="contact.html"
+                title="Contact Natalie Hood"
+                >CONTACT</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
+    <!--Hero-->
     <div class="hero">
       <div class="overlay">
         <div class="hero-text text-center">
@@ -76,49 +106,64 @@
           <p>Based in Vienna, Austria</p>
         </div>
         <div class="arrow-down">
-          <a href="#about-section" class="btn hero-btn-branding mt-5">
+          <a
+            href="#about-section"
+            class="btn hero-btn-branding mt-5"
+            title="Read about Natalie Hood"
+          >
             <i class="fas fa-angle-double-down"></i>
           </a>
         </div>
       </div>
     </div>
 
+    <!--Photo credits-->
     <div class="mt-3 text-center photo-credit">
       <i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;Toronto, Ontario, Canada
       &nbsp; | &nbsp; Photo by
       <a
         href="https://unsplash.com/@vradenburg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         class="photographer-credit"
+        title="View photographer's work on Unsplash"
         >Adam Vradenburg</a
       >
       on
       <a
         href="https://unsplash.com/collections/1914977/t-o-r-o-n-t-o?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
         class="unsplash-link"
+        title="View related images on Unsplash"
         >Unsplash</a
       >
     </div>
 
+    <!--Homepage introduction-->
     <div
       class="container homepage-about homepage-content-container"
       id="about-section"
     >
       <div class="homepage-content">
-        <h2>Hello, I'm <span class="name">Natalie Hood</span>.</h2>
-        <h5 class="mt-2">Vienna-based Front-End Developer in training</h5>
+        <h4>Welcome to my portfolio!</h4>
+        <h2>My name is <span class="name">Natalie Hood</span>.</h2>
         <p class="homepage-paragraph text-muted mt-4">
-          I strive to build mesmerizing web applications through
-          well-thought-out code and user-centered design. I'm naturally curious
-          and am consistently working on improving my skills one project /
-          design at a time. Below are some of the projects I worked on during
-          the SheCodes Workshops. Click on the "About me" button to read all
-          about my newfound passion for coding and my acquired skills.
+          I'm a Front-End Developer in training and I strive to build
+          mesmerizing web applications through well-thought-out code and
+          user-centered design. I'm naturally curious and consistently working
+          on improving my skills one project/design at a time. Below are some of
+          the projects I worked on during the SheCodes Workshops. Click on the
+          "About me" button to read all about my newfound passion for coding and
+          my acquired skills.
         </p>
         <div>
-          <a href="about.html" class="btn btn-branding mt-4">About me</a>
+          <a
+            href="about.html"
+            class="btn btn-branding mt-4"
+            title="Learn more about Natalie Hood"
+            >About me</a
+          >
         </div>
       </div>
 
+      <!--Featured projects-->
       <h3 class="text-center mb-5 featured-projects-header">
         FEATURED PROJECTS
       </h3>
@@ -129,8 +174,11 @@
             <img
               src="images/animal-shelters.png"
               class="img-fluid rounded p-3 border border-light shadow mb-4 d-none d-sm-block"
+              title="Animal Shelters project preview"
+              alt="Animal Shelters project"
             />
           </div>
+          <!--Animal shelters Webpage-->
           <div class="col-lg-6 text-center">
             <div class="featured-project-content">
               <h4 class="featured-project-title">Animal Shelters</h4>
@@ -141,23 +189,28 @@
                 tools & scripting language, along with my skills from the
                 coding-editor "Visual Studio Code", to build a static landing
                 page about animal shelters. The webpage includes basic HTML
-                elements and tags, and CSS properties. It also utilizes
+                elements as well as tags, and CSS properties. It also utilizes
                 JavaScript functionalities to create user interaction.
               </p>
-              <a href="/work.html" class="btn btn-branding mt-3" target="_blank"
+              <a
+                href="/work.html"
+                class="btn btn-branding mt-3"
+                target="_blank"
+                title="Learn more about this project"
                 >Learn more</a
               >
             </div>
           </div>
 
+          <!--Vanilla JS Weather App-->
           <div class="col-lg-6 text-center">
             <div class="featured-project-content">
               <h4 class="featured-project-title text-center">Weather App</h4>
               <p class="mt-4 text-muted featured-project-description">
-                This weather app was a project for "SheCodes Plus" - an advanced
-                8-JavaScript coding workshop. Building upon my knowledge
-                acquired from SheCodes Basics, I also became skilled in
-                Bootstrap, API's, real-life development workflow using Git and
+                This weather app was a project for "SheCodes Plus", an advanced
+                8-JavaScript coding workshop. Building upon my knowledge gained
+                from the SheCodes Basics workshop, I also became skilled in
+                Bootstrap, APIs, real-life development workflow using Git and
                 GitHub, hosting on Netlify, and advanced JavaScript. I combined
                 all of these skills to build a Vanilla JavaScript Weather App,
                 which uses the API from OpenWeatherMap to extract weather data.
@@ -169,6 +222,7 @@
                 href="/work.html"
                 class="btn btn-branding mt-3 text-left"
                 target="_blank"
+                title="Learn more about this app"
                 >Learn more</a
               >
             </div>
@@ -177,6 +231,8 @@
             <img
               src="images/weather-app.png"
               class="img-fluid rounded p-3 border border-light shadow mb-4 d-none d-sm-block"
+              title="Weather App project preview"
+              alt="Weather App project"
             />
           </div>
         </div>
@@ -184,9 +240,8 @@
     </div>
 
     <footer>
-      <div
-        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
-      >
+      <!--Work Inquiry-->
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
         <div>
           <h4>WORK INQUIRY</h4>
           <p class="mt-3">Let's work together!</p>
@@ -195,27 +250,33 @@
           <a
             href="mailto:nataliemhood@icloud.com"
             class="btn btn-branding"
-            title="Contact Natalie"
+            title="Connect with Natalie Hood"
             >Contact me</a
           >
         </div>
       </div>
+      <!--My email-->
       <div class="d-flex justify-content-center mt-5">
         <a
           href="mailto:nataliemhood@icloud.com"
           class="email-link"
-          title="Send Natalie an email"
+          title="Send Natalie Hood an email"
           >nataliemhood@icloud.com</a
         >
       </div>
+      <!--Social Media Links-->
       <div class="social-media-links justify-content-center d-flex">
-        <a href="mailto:nataliemhood@icloud.com" title="Send Natalie an email">
+        <a
+          href="mailto:nataliemhood@icloud.com"
+          title="Send Natalie Hood an email"
+        >
           <i class="far fa-envelope"></i
         ></a>
+
         <a
           href="https://www.linkedin.com/in/natalie-hood-4b088a10b/"
           target="_blank"
-          title="View Natalie's LinkedIn profile"
+          title="View Natalie Hood's LinkedIn profile"
         >
           <i class="fab fa-linkedin"></i
         ></a>
@@ -223,17 +284,19 @@
         <a
           href="https://github.com/natalieh93"
           target="_blank"
-          title="View Natalie's GitHub profile"
+          title="View Natalie Hood's GitHub profile"
           ><i class="fab fa-github"></i
         ></a>
       </div>
 
+      <!--Scroll up button-->
       <div class="scroll-up-button">
         <a href="#" class="scroll-up-text" title="Back to top">
           Back to top &nbsp; <i class="fas fa-angle-double-up"></i>
         </a>
       </div>
 
+      <!--My website footer copyright text-->
       <p class="text-center coder">
         This website was coded by Natalie Hood and is open-sourced.
       </p>
