@@ -1,38 +1,58 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
-  --branding-color: #334369;
   --secondary-color: #7d8aadf7;
-  --tertiary-color: #ececec;
-  --quaternary-color: #f7f7f7;
+  --branding-color: #334369;
+  --tertiary-color: #f1f1f1;
 }
 
 body {
   font-family: var(--default-font-family);
+  margin-bottom: -40px;
 }
 
 h1 {
-  font-size: 60px;
+  font-size: 64px;
+  font-weight: 600;
   letter-spacing: 3px;
 }
 
 h2 {
-  font-size: 45px;
-  font-weight: 600;
+  font-size: 30px;
 }
 
 h3 {
-  font-size: 40px;
-  font-weight: 500;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 h4 {
-  font-size: 38px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 20px;
   font-weight: 500;
 }
 
 p {
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 300;
+}
+
+footer {
+  margin: 60px 60px;
+}
+
+footer .contact-box {
+  background: var(--tertiary-color);
+  border-radius: 10px;
+  padding: 45px 100px;
+}
+
+footer .contact-box p {
+  margin: 0;
+  font-size: 17px;
 }
 
 .navbar {
@@ -54,7 +74,7 @@ p {
   width: 100vw;
   position: relative;
   background-size: cover;
-  background-position: 50% 50%;
+  background-position: 15% 18%;
   background-image: url(../images/canada.jpg);
 }
 
@@ -64,25 +84,33 @@ p {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(48, 48, 48, 0.336);
-  color: white;
+  background: rgba(48, 48, 48, 0.603);
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.hero h1 {
-  font-size: 101px;
+.hero {
   color: white;
-  margin-top: 120px;
+}
+
+.hero h1 {
+  font-size: 102px;
   letter-spacing: 3px;
+  margin-top: 300px;
+}
+
+.hero h2 {
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 .hero p {
-  font-size: 23.5px;
-  color: white;
-  font-weight: 300;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 20px;
 }
 
 .hero-btn-branding {
@@ -115,61 +143,38 @@ p {
   color: black;
 }
 
-.homepage-about h1 {
+.content-container {
+  padding: 160px 100px 0;
+}
+
+.homepage-content-container {
+  padding: 160px 50px 0px;
+}
+
+.homepage-content {
+  margin: 30px;
+}
+
+.homepage-content h2 {
   font-size: 40px;
   font-weight: 600;
 }
 
-.homepage-about {
+.homepage-content .homepage-about {
   justify-content: center;
-  padding-top: 178px;
   margin-bottom: 250px;
+  padding-top: 178px;
   width: 80%;
 }
 
-.homepage-paragraph {
-  padding: 20px 0px;
-  font-size: 15px;
+.homepage-content .homepage-paragraph {
+  font-size: 17px;
   line-height: 27px;
   text-align: justify;
 }
 
-.headshot-homepage {
-  border-radius: 500px;
-  max-width: 400px;
-}
-
-.arrow-down-normal {
-  margin-top: -200px;
-  position: relative;
-  right: 19px;
-  font-size: 30px;
-  padding: 15px 30px;
+.homepage-content .name {
   color: var(--secondary-color);
-}
-
-.name {
-  color: var(--secondary-color);
-}
-
-.featured-projects-container {
-  padding: 150px 60px 0;
-}
-
-.featured-projects-container h3 {
-  font-weight: 600;
-}
-
-.content-container {
-  padding: 170px 100px;
-}
-
-.about-paragraphs {
-  font-size: 16px;
-  line-height: 23px;
-  font-weight: 300;
-  text-align: justify;
-  text-justify: inter-word;
 }
 
 .btn-branding {
@@ -189,34 +194,70 @@ p {
   color: var(--secondary-color);
 }
 
+.featured-projects-header {
+  margin-top: 120px;
+  font-size: 30px;
+}
+
+.featured-projects-container h3 {
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.featured-project-title {
+  margin-top: 80px;
+  font-size: 50px;
+}
+
+.featured-project-description {
+  font-size: 16px;
+  text-align: justify;
+  line-height: 27px;
+  padding: 10px 60px;
+}
+
+.about-paragraphs {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 300;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .headshot {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 400px;
-  padding: 7px;
+  padding: 11px;
 }
 
 .skills-container {
   border: 10px solid var(--tertiary-color);
   border-radius: 20px;
-  margin: 0px auto;
-  padding: 5px;
-  width: 80%;
+  margin-top: 120px;
+  text-align: center;
 }
 
-.skills-container h3 {
+.skills-container h3,
+.certificates-container h3,
+.education-container h3 {
+  font-size: 32px;
+}
+
+.skills-container h4 {
   font-size: 20px;
 }
 
 .skills-container ul {
   list-style: none;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 30px;
   font-weight: 300;
   margin-right: 40px;
 }
 
 .certificates-container {
-  margin-top: 100px;
+  margin-top: 50px;
+  padding: 60px;
 }
 
 .education-content {
@@ -224,53 +265,38 @@ p {
 }
 
 .education-container {
-  margin-top: 100px;
-}
-
-.education-container ul {
-  list-style: none;
-}
-
-.graduation-icon {
-  font-size: 25px;
-}
-
-.education-container h3 {
-  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .education-container h4 {
-  font-size: 18px;
+  font-size: 26px;
 }
 
-.focus-areas {
-  font-size: 16px;
-  text-align: center;
+.graduation-icon {
+  font-size: 28px;
 }
 
-.focus-areas li {
-  font-size: 16px;
-  font-weight: 300;
+.focus-area-header {
+  font-weight: 500;
+}
+
+.focus-areas p {
+  line-height: 20px;
+  font-size: 17px;
 }
 
 .portfolio-subheading {
   font-size: 20px;
-}
-
-.project-title {
-  margin-top: 90px;
-}
-
-.project-description {
   font-weight: 300;
-  font-size: 16px;
-  text-align: justify;
-  line-height: 25px;
-  padding: 20px;
+}
+
+.portfolio-container p {
+  font-size: 17px;
 }
 
 .project-github-link {
-  font-size: 15px;
+  font-size: 16px;
   color: var(--secondary-color);
   text-decoration: none;
   transition: all 200ms ease;
@@ -280,33 +306,29 @@ p {
   color: var(--branding-color);
 }
 
-.contact-box {
-  background-color: var(--quaternary-color);
-  font-size: 16px;
-  font-weight: 200;
-  padding: 30px 120px;
-  border-radius: 10px;
+.contact-content {
+  margin-top: 70px;
+  margin-bottom: 85px;
 }
 
-.contact-content-container {
-  margin-top: 160px;
-  margin-bottom: 150px;
-}
-
-.contact-content-container a {
+.contact-content a {
   color: var(--secondary-color);
   text-decoration: none;
 }
 
-.contact-content-container a:hover {
+.contact-content a:hover {
   text-decoration: underline;
 }
 
+.contact-content p {
+  font-weight: 400;
+}
+
 .email-link {
-  color: var(--secondary-color);
-  font-size: 24px;
+  color: black;
+  font-size: 22px;
   text-decoration: none;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .email-link:hover {
@@ -314,11 +336,11 @@ p {
 }
 
 .social-media-links a {
-  background-color: var(--quaternary-color);
+  border: 1px solid var(--secondary-color);
   border-radius: 50%;
   color: var(--secondary-color);
   font-size: 25px;
-  margin: 30px 20px;
+  margin: 30px 18px;
   padding: 10px 18px;
   transition: all 200ms ease;
 }
@@ -331,7 +353,7 @@ p {
 .scroll-up-button {
   font-size: 15px;
   margin-bottom: 50px;
-  margin-top: 80px;
+  margin-top: 55px;
   text-align: center;
 }
 
@@ -343,10 +365,6 @@ p {
 
 .scroll-up-text:hover {
   color: black;
-}
-
-.scroll-up-button {
-  margin-top: 55px;
 }
 
 .coder {
