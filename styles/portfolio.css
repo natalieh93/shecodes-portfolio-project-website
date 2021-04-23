@@ -16,16 +16,17 @@ h1 {
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 45px;
+  font-weight: 600;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 500;
 }
 
 h4 {
-  font-size: 22px;
+  font-size: 38px;
   font-weight: 500;
 }
 
@@ -63,7 +64,7 @@ p {
   width: 100%;
   top: 0;
   left: 0;
-  background: rgba(48, 48, 48, 0.432);
+  background: rgba(48, 48, 48, 0.336);
   color: white;
   display: flex;
   align-items: center;
@@ -114,16 +115,53 @@ p {
   color: black;
 }
 
+.homepage-about h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.homepage-about {
+  justify-content: center;
+  padding-top: 178px;
+  margin-bottom: 250px;
+  width: 80%;
+}
+
 .homepage-paragraph {
-  padding: 10px 100px;
+  padding: 20px 0px;
+  font-size: 15px;
+  line-height: 27px;
+  text-align: justify;
+}
+
+.headshot-homepage {
+  border-radius: 500px;
+  max-width: 400px;
+}
+
+.arrow-down-normal {
+  margin-top: -200px;
+  position: relative;
+  right: 19px;
+  font-size: 30px;
+  padding: 15px 30px;
+  color: var(--secondary-color);
 }
 
 .name {
   color: var(--secondary-color);
 }
 
+.featured-projects-container {
+  padding: 150px 60px 0;
+}
+
+.featured-projects-container h3 {
+  font-weight: 600;
+}
+
 .content-container {
-  padding: 170px 190px;
+  padding: 170px 100px;
 }
 
 .about-paragraphs {
@@ -220,14 +258,15 @@ p {
 }
 
 .project-title {
-  font-size: 40px;
+  margin-top: 90px;
 }
 
 .project-description {
   font-weight: 300;
   font-size: 16px;
-  line-height: 22px;
-  padding: 30px 30px;
+  text-align: justify;
+  line-height: 25px;
+  padding: 20px;
 }
 
 .project-github-link {
