@@ -90,71 +90,6 @@ footer .contact-box p {
   color: var(--secondary-color);
 }
 
-/* FOOTER */
-
-/* Email */
-
-.email-link {
-  color: black;
-  font-size: 22px;
-  text-decoration: none;
-  margin-top: 50px;
-}
-
-.email-link:hover {
-  color: var(--branding-color);
-}
-
-/* Social Media links  */
-.social-media-links a {
-  border: 1px solid var(--secondary-color);
-  border-radius: 50%;
-  color: var(--secondary-color);
-  font-size: 25px;
-  margin: 30px 18px;
-  padding: 10px 18px;
-  transition: all 200ms ease;
-}
-
-.social-media-links a:hover {
-  background-color: var(--secondary-color);
-  color: white;
-}
-
-/* Scroll-up button  */
-.scroll-up-button {
-  font-size: 15px;
-  margin-bottom: 50px;
-  margin-top: 55px;
-  text-align: center;
-}
-
-.scroll-up-text {
-  color: black;
-  font-weight: 400;
-  text-decoration: none;
-}
-
-.scroll-up-text:hover {
-  color: black;
-}
-
-/* Website footer  */
-
-.coder {
-  font-size: 15px;
-}
-
-.coder a {
-  text-decoration: none;
-  color: black;
-}
-
-.coder a:hover {
-  text-decoration: underline;
-  color: black;
-}
-
 /* HOMEPAGE */
 
 /* Hero */
@@ -258,12 +193,11 @@ footer .contact-box p {
 
 .homepage-content .homepage-paragraph {
   font-size: 17px;
-
   line-height: 28px;
   text-align: justify;
 }
 
-.homepage-content .name {
+.homepage-content .name-color {
   color: var(--secondary-color);
 }
 
@@ -278,13 +212,13 @@ footer .contact-box p {
   letter-spacing: 3px;
 }
 
-.featured-project-title {
-  margin-top: 80px;
-  font-size: 40px;
-}
-
 .featured-projects-content {
   padding: 0 30px;
+}
+
+.featured-project-title {
+  font-size: 40px;
+  margin-top: 80px;
 }
 
 .featured-project-description {
@@ -320,9 +254,9 @@ footer .contact-box p {
   border: 10px solid white;
 }
 
-/* Technologies section */
+/* Technology section */
 
-.technologies-section {
+.technology-section {
   border: 5px solid var(--tertiary-color);
   border-radius: 10px;
   text-align: center;
@@ -330,39 +264,35 @@ footer .contact-box p {
   margin: 0 50px;
 }
 
-.technologies-section h3,
-.certificates-section h3,
+.technology-section h3,
+.certificate-section h3,
 .education-section h3 {
   font-size: 32px;
 }
 
 /* Certificate section */
 
-.certificates-section,
+.certificate-section,
 .education-section {
   margin-top: 100px;
 }
 
 /* Education section */
 
-.education-content {
-  border-right: 3px solid var(--tertiary-color);
-}
-
 .education-section h4 {
   font-size: 20px;
+}
+
+.education-content {
+  border-right: 3px solid var(--tertiary-color);
 }
 
 .graduation-icon {
   font-size: 30px;
 }
 
-.focus-area-header {
-  font-weight: 500;
-}
-
 .focus-areas p {
-  line-height: 20px;
+  line-height: 18px;
   font-size: 17px;
 }
 
@@ -396,11 +326,11 @@ footer .contact-box p {
 
 .contact-section {
   margin-top: 160px;
-  margin-bottom: 80px;
+  margin-bottom: 75px;
 }
 
 .contact-section h1 {
-  margin-bottom: 65px;
+  margin-bottom: 50px;
 }
 
 .contact-section a {
@@ -415,6 +345,71 @@ footer .contact-box p {
 .contact-section p {
   font-weight: 400;
   font-size: 20px;
+}
+
+/* FOOTER */
+
+/* Email */
+
+.email-link {
+  color: black;
+  font-size: 22px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.email-link:hover {
+  color: var(--branding-color);
+}
+
+/* Social Media links  */
+.social-media-links a {
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  color: var(--secondary-color);
+  font-size: 25px;
+  margin: 30px 18px;
+  padding: 10px 18px;
+  transition: all 200ms ease;
+}
+
+.social-media-links a:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+/* Scroll-up button  */
+.scroll-up-button {
+  font-size: 15px;
+  margin-bottom: 50px;
+  margin-top: 55px;
+  text-align: center;
+}
+
+.scroll-up-text {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.scroll-up-text:hover {
+  color: black;
+}
+
+/* Website footer  */
+
+.coder {
+  font-size: 15px;
+}
+
+.coder a {
+  text-decoration: none;
+  color: black;
+}
+
+.coder a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 /* MEDIA QUERY */
