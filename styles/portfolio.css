@@ -385,6 +385,10 @@ footer .contact-box p {
   margin-bottom: 80px;
 }
 
+.contact-section h1 {
+  margin-bottom: 65px;
+}
+
 .contact-section a {
   color: var(--secondary-color);
   text-decoration: none;
