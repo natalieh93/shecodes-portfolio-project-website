@@ -35,7 +35,7 @@ h5 {
 }
 
 p {
-  font-size: 16px;
+  font-size: px;
   font-weight: 300;
 }
 
@@ -174,20 +174,21 @@ footer .contact-box p {
 
 .hero h1 {
   font-size: 102px;
-  letter-spacing: 2px;
-  margin-top: 280px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 295px;
 }
 
 .hero h2 {
-  font-size: 23px;
+  font-size: 26px;
   font-weight: 500;
   margin-top: 10px;
 }
 
 .hero p {
-  font-size: 20px;
-  font-weight: 400;
-  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 25px;
 }
 
 .hero-btn-branding {
@@ -203,7 +204,7 @@ footer .contact-box p {
 }
 
 .photo-credit {
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .photographer-credit,
@@ -219,7 +220,7 @@ footer .contact-box p {
 }
 
 .homepage-content-container {
-  padding: 220px 50px 0px;
+  padding: 220px 50px 0;
 }
 
 .homepage-content h2 {
@@ -240,6 +241,7 @@ footer .contact-box p {
 
 .homepage-content .homepage-paragraph {
   font-size: 17px;
+
   line-height: 28px;
   text-align: justify;
 }
@@ -263,21 +265,25 @@ footer .contact-box p {
   font-size: 40px;
 }
 
+.featured-projects-content {
+  padding: 0 30px;
+}
+
 .featured-project-description {
   font-size: 16px;
   line-height: 28px;
-  padding: 10px 60px;
   text-align: justify;
 }
 
 /* ABOUT PAGE */
 
 .about-section {
-  margin-top: 125px;
+  margin-top: 80px;
+  padding: 40px;
 }
 
 .about-content {
-  padding: 30px;
+  padding: 40px;
 }
 
 .about-paragraphs {
@@ -294,32 +300,18 @@ footer .contact-box p {
   border: 10px solid white;
 }
 
-.skills-section {
-  border: 10px solid var(--tertiary-color);
-  border-radius: 20px;
-  font-weight: 300;
-  font-size: 15px;
-  padding: 25px;
+.technologies-section {
+  border: 5px solid var(--tertiary-color);
+  border-radius: 10px;
   text-align: center;
-  width: 80%;
+  padding: 30px;
+  margin: 0 50px;
 }
 
-.skills-section h3,
+.technologies-section h3,
 .certificates-section h3,
 .education-section h3 {
   font-size: 32px;
-}
-
-.skills h4 {
-  font-size: 20px;
-  list-style: none;
-  margin-left: 30px;
-}
-
-.skills li {
-  font-size: 16px;
-  line-height: 32px;
-  list-style: none;
 }
 
 .certificates-section,
@@ -332,7 +324,11 @@ footer .contact-box p {
 }
 
 .education-section h4 {
-  font-size: 26px;
+  font-size: 20px;
+}
+
+.education-section h5 {
+  font-size: 20px;
 }
 
 .education-section p {
@@ -340,7 +336,7 @@ footer .contact-box p {
 }
 
 .graduation-icon {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 .focus-area-header {
@@ -361,10 +357,6 @@ footer .contact-box p {
 .project-subheading {
   font-size: 20px;
   font-weight: 300;
-}
-
-.portfolio-container p {
-  font-size: 17px;
 }
 
 .project-github-link {
@@ -406,22 +398,27 @@ footer .contact-box p {
 @media (max-width: 900px) {
   /* Homepage */
   .hero h1 {
-    font-size: 47px;
+    font-size: 44px;
     margin-top: 115px;
   }
 
   .hero h2 {
-    font-size: 14px;
+    font-size: 19px;
+    line-height: 25px;
     margin-top: 10px;
   }
 
   .hero p {
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 20px;
   }
 
+  .photo-credit {
+    font-size: 15px;
+  }
+
   .hero-btn-branding {
-    font-size: 20px;
+    font-size: 18px;
     padding: 7px 20px;
   }
 
@@ -434,7 +431,8 @@ footer .contact-box p {
     padding: 0;
   }
 
-  .featured-project-description {
+  .featured-projects-content {
+    text-align: center;
     padding: 0;
   }
 
@@ -443,7 +441,7 @@ footer .contact-box p {
   }
 
   .social-media-links a {
-    font-size: 19px;
+    font-size: 22px;
   }
 
   /* About page */
@@ -456,6 +454,18 @@ footer .contact-box p {
     font-size: 16px;
   }
 
+  .about-content {
+    text-align: center;
+  }
+
+  .skills-section {
+    border: none;
+  }
+
+  .education-content {
+    border: none;
+  }
+
   .education-section h4 {
     font-size: 20px;
   }
@@ -465,7 +475,7 @@ footer .contact-box p {
   }
 
   .education-section p {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 12px;
   }
 
