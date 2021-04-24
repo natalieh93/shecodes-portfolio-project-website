@@ -134,6 +134,15 @@ footer .contact-box p {
   font-size: 15px;
 }
 
+.coder a {
+  text-decoration: none;
+  color: black;
+}
+
+.coder a:hover {
+  text-decoration: underline;
+  color: black;
+}
 /* HOMEPAGE */
 
 .hero {
@@ -249,7 +258,7 @@ footer .contact-box p {
 
 .featured-project-title {
   margin-top: 80px;
-  font-size: 44px;
+  font-size: 40px;
 }
 
 .featured-project-description {
