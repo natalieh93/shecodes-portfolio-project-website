@@ -40,7 +40,7 @@ p {
 }
 
 footer {
-  margin: 60px 0;
+  margin: 60px;
 }
 
 footer .contact-box {
@@ -50,11 +50,12 @@ footer .contact-box {
 }
 
 footer .contact-box p {
-  font-size: 18px;
   margin: 0;
 }
 
 /* GENERAL */
+
+/* Navbar */
 
 .navbar {
   background-color: white;
@@ -71,6 +72,7 @@ footer .contact-box p {
   padding-left: 30px;
 }
 
+/* Buttons */
 .btn-branding {
   background-color: var(--secondary-color);
   border: 1px solid var(--secondary-color);
@@ -88,6 +90,10 @@ footer .contact-box p {
   color: var(--secondary-color);
 }
 
+/* FOOTER */
+
+/* Email */
+
 .email-link {
   color: black;
   font-size: 22px;
@@ -99,6 +105,7 @@ footer .contact-box p {
   color: var(--branding-color);
 }
 
+/* Social Media links  */
 .social-media-links a {
   border: 1px solid var(--secondary-color);
   border-radius: 50%;
@@ -114,6 +121,7 @@ footer .contact-box p {
   color: white;
 }
 
+/* Scroll-up button  */
 .scroll-up-button {
   font-size: 15px;
   margin-bottom: 50px;
@@ -131,6 +139,8 @@ footer .contact-box p {
   color: black;
 }
 
+/* Website footer  */
+
 .coder {
   font-size: 15px;
 }
@@ -144,7 +154,10 @@ footer .contact-box p {
   text-decoration: underline;
   color: black;
 }
+
 /* HOMEPAGE */
+
+/* Hero */
 
 .hero {
   height: 100vh;
@@ -203,6 +216,8 @@ footer .contact-box p {
   border: 1px solid white;
 }
 
+/* Photo credits  */
+
 .photo-credit {
   font-size: 15px;
 }
@@ -218,6 +233,8 @@ footer .contact-box p {
   text-decoration: underline;
   color: black;
 }
+
+/* Homepage introduction content */
 
 .homepage-content-container {
   padding: 220px 50px 0;
@@ -250,6 +267,7 @@ footer .contact-box p {
   color: var(--secondary-color);
 }
 
+/* Featured projects */
 .featured-projects-header {
   margin-top: 220px;
   font-size: 32px;
@@ -277,6 +295,8 @@ footer .contact-box p {
 
 /* ABOUT PAGE */
 
+/* My biography */
+
 .about-section {
   margin-top: 80px;
   padding: 40px;
@@ -300,6 +320,8 @@ footer .contact-box p {
   border: 10px solid white;
 }
 
+/* Technologies section */
+
 .technologies-section {
   border: 5px solid var(--tertiary-color);
   border-radius: 10px;
@@ -314,10 +336,14 @@ footer .contact-box p {
   font-size: 32px;
 }
 
+/* Certificate section */
+
 .certificates-section,
 .education-section {
   margin-top: 100px;
 }
+
+/* Education section */
 
 .education-content {
   border-right: 3px solid var(--tertiary-color);
@@ -325,14 +351,6 @@ footer .contact-box p {
 
 .education-section h4 {
   font-size: 20px;
-}
-
-.education-section h5 {
-  font-size: 20px;
-}
-
-.education-section p {
-  font-size: 19px;
 }
 
 .graduation-icon {
@@ -350,6 +368,8 @@ footer .contact-box p {
 
 /* WORK PAGE */
 
+/* Project section */
+
 .project-section {
   margin-top: 160px;
 }
@@ -358,6 +378,8 @@ footer .contact-box p {
   font-size: 20px;
   font-weight: 300;
 }
+
+/* GitHub repository buttons  */
 
 .project-github-link {
   font-size: 16px;
@@ -394,6 +416,8 @@ footer .contact-box p {
   font-weight: 400;
   font-size: 20px;
 }
+
+/* MEDIA QUERY */
 
 @media (max-width: 900px) {
   /* Homepage */
