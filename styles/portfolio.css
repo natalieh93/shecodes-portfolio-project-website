@@ -7,7 +7,6 @@
 
 body {
   font-family: var(--default-font-family);
-  margin-bottom: -40px;
 }
 
 h1 {
@@ -47,7 +46,7 @@ footer {
 footer .contact-box {
   background: var(--tertiary-color);
   border-radius: 10px;
-  padding: 45px 100px;
+  padding: 40px 120px;
 }
 
 footer .contact-box p {
@@ -69,10 +68,6 @@ footer .contact-box p {
 .nav-item {
   font-weight: 500;
   padding-left: 30px;
-}
-
-.content-container {
-  padding: 160px 100px 0;
 }
 
 .btn-branding {
@@ -170,7 +165,7 @@ footer .contact-box p {
 .hero h1 {
   font-size: 102px;
   letter-spacing: 3px;
-  margin-top: 300px;
+  margin-top: 280px;
 }
 
 .hero h2 {
@@ -190,8 +185,6 @@ footer .contact-box p {
   font-size: 30px;
   padding: 15px 30px;
   transition: all 100ms ease;
-  position: relative;
-  right: 19px;
 }
 
 .hero-btn-branding:hover {
@@ -219,13 +212,13 @@ footer .contact-box p {
   padding: 160px 50px 0px;
 }
 
-.homepage-content {
-  margin: 30px;
-}
-
 .homepage-content h2 {
   font-size: 40px;
   font-weight: 600;
+}
+
+.homepage-content h4 {
+  font-size: 35px;
 }
 
 .homepage-content .homepage-about {
@@ -236,8 +229,8 @@ footer .contact-box p {
 }
 
 .homepage-content .homepage-paragraph {
-  font-size: 17px;
-  line-height: 27px;
+  font-size: 16px;
+  line-height: 28px;
   text-align: justify;
 }
 
@@ -262,16 +255,24 @@ footer .contact-box p {
 
 .featured-project-description {
   font-size: 16px;
-  text-align: justify;
-  line-height: 27px;
+  line-height: 28px;
   padding: 10px 60px;
+  text-align: justify;
 }
 
 /* ABOUT PAGE */
 
+.about-section {
+  padding-top: 160px;
+}
+
+.about-content {
+  padding: 30px;
+}
+
 .about-paragraphs {
   font-size: 16px;
-  line-height: 25px;
+  line-height: 1.5;
   font-weight: 300;
   text-align: justify;
   text-justify: inter-word;
@@ -279,51 +280,55 @@ footer .contact-box p {
 
 .headshot {
   margin: 0 auto;
-  max-width: 400px;
-  padding: 11px;
+  width: 400px;
+  border: 10px solid white;
 }
 
-.skills-container {
+.skills-section {
   border: 10px solid var(--tertiary-color);
   border-radius: 20px;
-  margin-top: 120px;
+  font-weight: 300;
+  font-size: 15px;
+  padding: 25px;
   text-align: center;
+  width: 80%;
 }
 
-.skills-container h3,
-.certificates-container h3,
-.education-container h3 {
+.skills-section h3,
+.certificates-section h3,
+.education-section h3 {
   font-size: 32px;
 }
 
-.skills-container h4 {
+.skills h4 {
   font-size: 20px;
-}
-
-.skills-container ul {
   list-style: none;
-  font-size: 16px;
-  line-height: 30px;
-  font-weight: 300;
-  margin-right: 40px;
 }
 
-.certificates-container {
-  margin-top: 50px;
-  padding: 60px;
+.skills li {
+  font-size: 16px;
+  list-style: none;
+}
+
+.skills h4 {
+  margin-left: 30px;
+}
+
+.certificates-section,
+.education-section {
+  margin-top: 100px;
 }
 
 .education-content {
   border-right: 3px solid var(--tertiary-color);
 }
 
-.education-container {
-  margin-top: 50px;
-  margin-bottom: 100px;
+.education-section h4 {
+  font-size: 26px;
 }
 
-.education-container h4 {
-  font-size: 26px;
+.education-section p {
+  font-size: 19px;
 }
 
 .graduation-icon {
@@ -341,7 +346,11 @@ footer .contact-box p {
 
 /* WORK PAGE */
 
-.portfolio-subheading {
+.project-section {
+  margin-top: 160px;
+}
+
+.project-subheading {
   font-size: 20px;
   font-weight: 300;
 }
@@ -363,20 +372,129 @@ footer .contact-box p {
 
 /* CONTACT PAGE */
 
-.contact-content {
-  margin-top: 70px;
-  margin-bottom: 85px;
+.contact-section {
+  padding-top: 160px;
 }
 
-.contact-content a {
+.contact-section a {
   color: var(--secondary-color);
   text-decoration: none;
 }
 
-.contact-content a:hover {
+.contact-section a:hover {
   text-decoration: underline;
 }
 
-.contact-content p {
+.contact-section p {
   font-weight: 400;
+}
+
+@media (max-width: 900px) {
+  /* Homepage */
+  .hero h1 {
+    font-size: 47px;
+    margin-top: 115px;
+  }
+
+  .hero h2 {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .hero p {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .hero-btn-branding {
+    font-size: 20px;
+    padding: 7px 20px;
+  }
+
+  .homepage-content h4 {
+    font-size: 27px;
+  }
+
+  .homepage-content .homepage-paragraph {
+    font-size: 16px;
+    padding: 0;
+  }
+
+  .featured-project-title {
+    font-size: 44px;
+  }
+
+  .featured-project-description {
+    padding: 0;
+  }
+
+  .email-link {
+    font-size: 19px;
+  }
+
+  .social-media-links a {
+    font-size: 19px;
+  }
+
+  /* About page */
+
+  .about-section h1 {
+    font-size: 44px;
+  }
+
+  .about-section .about-paragraphs {
+    font-size: 16px;
+  }
+
+  .education-section h4 {
+    font-size: 20px;
+  }
+
+  .education-section h5 {
+    font-size: 18px;
+  }
+
+  .education-section p {
+    font-size: 16px;
+    line-height: 12px;
+  }
+
+  /* Project  page */
+  .project-content h1 {
+    font-size: 44px;
+  }
+
+  .project-content h3 {
+    font-size: 23px;
+  }
+
+  .project-subheading {
+    font-size: 17px;
+  }
+
+  .project-content p {
+    font-size: 17px;
+  }
+
+  /* Contact page */
+  .contact-section h1 {
+    font-size: 44px;
+  }
+
+  .contact-section h3 {
+    font-size: 23px;
+  }
+
+  .contact-section h3 {
+    font-size: 23px;
+  }
+
+  .contact-content p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .coder {
+    font-size: 15px;
+  }
 }
