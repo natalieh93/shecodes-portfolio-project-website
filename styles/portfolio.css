@@ -67,6 +67,7 @@ footer .contact-box p {
 
 .nav-item {
   font-weight: 500;
+  font-size: 18px;
   padding-left: 30px;
 }
 
@@ -218,7 +219,7 @@ footer .contact-box p {
 }
 
 .homepage-content-container {
-  padding: 160px 50px 0px;
+  padding: 220px 50px 0px;
 }
 
 .homepage-content h2 {
@@ -228,6 +229,7 @@ footer .contact-box p {
 
 .homepage-content h4 {
   font-size: 35px;
+  font-weight: 400;
 }
 
 .homepage-content .homepage-about {
@@ -247,7 +249,7 @@ footer .contact-box p {
 }
 
 .featured-projects-header {
-  margin-top: 130px;
+  margin-top: 220px;
   font-size: 32px;
 }
 
