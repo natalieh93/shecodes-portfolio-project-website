@@ -16,11 +16,11 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 40px;
   font-weight: 600;
 }
 
@@ -35,23 +35,23 @@ h5 {
 }
 
 p {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
 }
 
 footer {
-  margin: 60px 60px;
+  margin: 60px 0;
 }
 
 footer .contact-box {
   background: var(--tertiary-color);
   border-radius: 10px;
-  padding: 40px 120px;
+  padding: 30px 120px;
 }
 
 footer .contact-box p {
+  font-size: 18px;
   margin: 0;
-  font-size: 17px;
 }
 
 /* GENERAL */
@@ -131,7 +131,7 @@ footer .contact-box p {
 }
 
 .coder {
-  font-size: 13px;
+  font-size: 15px;
 }
 
 /* HOMEPAGE */
@@ -164,7 +164,7 @@ footer .contact-box p {
 
 .hero h1 {
   font-size: 102px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   margin-top: 280px;
 }
 
@@ -225,11 +225,10 @@ footer .contact-box p {
   justify-content: center;
   margin-bottom: 250px;
   padding-top: 178px;
-  width: 80%;
 }
 
 .homepage-content .homepage-paragraph {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 28px;
   text-align: justify;
 }
@@ -239,18 +238,18 @@ footer .contact-box p {
 }
 
 .featured-projects-header {
-  margin-top: 120px;
-  font-size: 30px;
+  margin-top: 130px;
+  font-size: 32px;
 }
 
-.featured-projects-container h3 {
+.featured-projects-section h4 {
   font-weight: 600;
   letter-spacing: 3px;
 }
 
 .featured-project-title {
   margin-top: 80px;
-  font-size: 50px;
+  font-size: 44px;
 }
 
 .featured-project-description {
@@ -263,7 +262,7 @@ footer .contact-box p {
 /* ABOUT PAGE */
 
 .about-section {
-  padding-top: 160px;
+  margin-top: 125px;
 }
 
 .about-content {
@@ -303,15 +302,13 @@ footer .contact-box p {
 .skills h4 {
   font-size: 20px;
   list-style: none;
+  margin-left: 30px;
 }
 
 .skills li {
   font-size: 16px;
+  line-height: 32px;
   list-style: none;
-}
-
-.skills h4 {
-  margin-left: 30px;
 }
 
 .certificates-section,
@@ -373,7 +370,8 @@ footer .contact-box p {
 /* CONTACT PAGE */
 
 .contact-section {
-  padding-top: 160px;
+  margin-top: 160px;
+  margin-bottom: 80px;
 }
 
 .contact-section a {
@@ -387,6 +385,7 @@ footer .contact-box p {
 
 .contact-section p {
   font-weight: 400;
+  font-size: 20px;
 }
 
 @media (max-width: 900px) {
@@ -418,10 +417,6 @@ footer .contact-box p {
   .homepage-content .homepage-paragraph {
     font-size: 16px;
     padding: 0;
-  }
-
-  .featured-project-title {
-    font-size: 44px;
   }
 
   .featured-project-description {
@@ -492,9 +487,5 @@ footer .contact-box p {
   .contact-content p {
     font-size: 16px;
     text-align: center;
-  }
-
-  .coder {
-    font-size: 15px;
   }
 }
