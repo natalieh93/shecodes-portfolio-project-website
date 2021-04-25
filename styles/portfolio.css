@@ -30,7 +30,7 @@ h3 {
 }
 
 h4 {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 h5 {
@@ -132,7 +132,7 @@ footer .contact-box p {
 .hero h1 {
   font-size: 101px;
   letter-spacing: 3px;
-  margin-top: 295px;
+  margin-top: 280px;
 }
 
 .hero h2 {
@@ -150,7 +150,7 @@ footer .contact-box p {
 .hero-btn-branding {
   color: white;
   font-size: 30px;
-  padding: 15px 30px;
+  padding: 8px 26px;
   transition: all 100ms ease;
 }
 
@@ -194,6 +194,9 @@ footer .contact-box p {
   padding-top: 178px;
 }
 
+.homepage-content .introduction-header {
+  font-size: 32p;
+}
 .homepage-content .homepage-paragraph {
   line-height: 28px;
   text-align: justify;
