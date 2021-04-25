@@ -519,6 +519,10 @@ footer .contact-box p {
     line-height: 26px;
   }
 
+  .skills {
+    margin-top: -13px;
+  }
+
   /* Project page */
 
   .project-subheading {
