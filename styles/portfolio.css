@@ -534,6 +534,10 @@ footer .contact-box p {
     font-size: 19px;
   }
 
+  .project-content {
+    margin-bottom: 20px;
+  }
+
   /* Contact page */
 
   .contact-section h4 {
