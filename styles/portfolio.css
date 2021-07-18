@@ -42,6 +42,10 @@ h5 {
   font-weight: 500;
 }
 
+img {
+  box-shadow: 3px 3px 10px rgba(44, 37, 63, 0.712);
+}
+
 p {
   font-size: 17px;
   font-weight: 300;
@@ -310,11 +314,11 @@ footer .contact-box p {
 /* Project section */
 
 .project-section {
-  padding: 160px 50px 0;
+  padding: 160px 20px 0;
 }
 
 .project-content {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 .project-subheading {
